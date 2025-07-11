@@ -1,9 +1,17 @@
-salary = float(input("Enter the salary: "))
-percentage = float(input("Enter the percentage: "))
+#Author: Sahan Baddegama
+#Date: 17th Feb 2025
 
-new_salary = (salary * (percentage/100)) + salary
+#Calculate the number is less than 10 and it's odd or even
 
-print(f"Your new salary is {new_salary}")
+num = float(input("Enter the number: "))
 
+if num < 10 :
 
+    if num % 2 == 0 :
+        print("Even")
 
+    else :
+        print("Odd")
+        
+else:
+    print("Greater than 10")

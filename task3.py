@@ -1,6 +1,15 @@
-radius = float(input("Enter radius: "))
-height = float(input("Enter height: "))
+#Author: Sahan Baddegama
+#Date: 17th Feb 2025
 
-volume_of_cylinder = (22/7)*(radius**2)*height
+#Calculate the number is positive, negative or zero
 
-print(f"Volume of the Cylinder is {volume_of_cylinder}")
+num = float(input("Enter the number: "))
+
+if num > 0 :
+    print("Positive number")
+
+elif num == 0:
+    print("Zero")
+
+else:
+    print("Negative Number")

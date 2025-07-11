@@ -1,9 +1,12 @@
-length = float(input("Enter the length: "))
-width = float(input("Enter the width: "))
-height = float(input("Enter the height: "))
+#Author: Sahan Baddegama
+#Date: 17th Feb 2025
 
-surface_area = (((length * width)*2) + ((width * height)*2) + ((length * height)*2))
-perimeter_of_the_base = (length*2) + (width*2)
-volume = length * width * height
+#Age verification
 
-print(f"Surface area is {surface_area}\npermiter is {perimeter_of_the_base}\nvolume is {volume}")
+age = int(input("Enter your age: "))
+
+if age >= 18 :
+    print("You are eligible to vote")
+
+else:
+    print("You are not eligible to vote")
